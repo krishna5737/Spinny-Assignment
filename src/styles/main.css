@@ -1,0 +1,267 @@
+.button,
+a {
+  text-decoration: none;
+}
+.api .right,
+.header .menu,
+.header nav {
+  position: relative;
+}
+
+.header .hero p,
+p {
+  line-height: 1.75;
+}
+body {
+  background: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Merriweather Sans", sans-serif;
+  color: #343434;
+  margin: 0;
+}
+h1 {
+  font-size: 72px;
+}
+h2 {
+  font-size: 48px;
+}
+h3 {
+  font-size: 36px;
+}
+h4 {
+  font-size: 30px;
+}
+h5 {
+  font-size: 20px;
+}
+h6,
+small {
+  font-size: 14px;
+}
+a {
+  color: #2e51a2;
+}
+p {
+  color: #343434;
+}
+em {
+  font-style: italic;
+}
+b,
+strong {
+  font-weight: 700;
+}
+.typography--uppercase {
+  text-transform: uppercase;
+}
+.buttons {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+}
+.buttons--margin-small {
+  margin-top: 25px;
+}
+.buttons--margin-none {
+  margin-top: 0;
+}
+.buttons .button {
+  margin-right: 25px;
+}
+.button {
+  box-sizing: border-box;
+  font-weight: 700;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button--size-large {
+  height: 60px;
+  min-width: 180px;
+}
+.button--size-medium {
+  height: 50px;
+  min-width: 180px;
+}
+.button--size-width-override {
+  width: auto;
+  padding: 0 25px;
+}
+.button--fill-white {
+  background: #fff;
+  color: #2e51a2;
+}
+.button--fill-blue {
+  background: #2e51a2;
+  color: #fff;
+}
+.button--outline {
+  background: 0 0;
+}
+.button--outline-white {
+  border: 2px solid #fff;
+  color: #fff;
+}
+.button--outline-black {
+  border: 2px solid #343434;
+  color: #343434;
+}
+.button__icon {
+  display: inline-block;
+  margin-right: 10px;
+}
+.flex {
+  display: flex;
+}
+.flex--centralize {
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right, #2e51a2, #1b7ac2);
+  box-sizing: border-box;
+  padding: 0 100px;
+  display: grid;
+  grid-template-rows: 200px auto;
+  overflow: scroll;
+}
+
+.header .hero {
+  margin-top: 50px;
+  display: grid;
+}
+.header .hero h1 {
+  color: #fff;
+}
+.header .hero h5 {
+  color: #e8f3fb;
+  letter-spacing: 0.025em;
+  margin-bottom: 50px;
+  font-weight: 400;
+}
+.header .hero p {
+  color: #fff;
+  width: 80%;
+}
+
+.header .hero .app .search {
+  display: grid;
+  grid-template-columns: auto 50px;
+}
+.header .hero .app .search input[type="text"] {
+  background: rgba(255, 255, 255, 0.05);
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-left: 1px solid rgba(255, 255, 255, 0.4);
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  border-right: transparent;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  color: #fff;
+  outline: 0;
+}
+
+.header .hero .app .search input[type="text"]::placeholder{
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.header .hero .app .search button {
+  background: rgba(255, 255, 255, 0.05);
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-right: 1px solid rgba(255, 255, 255, 0.4);
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  border-left: transparent;
+  width: 100%;
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+}
+
+.header .hero .app .debug {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 10px 0;
+  line-height: 1.5;
+}
+.header .hero .app .debug a {
+  color: rgba(255, 255, 255, 0.9);
+}
+.header .hero .app .debug p span {
+  opacity: 40%
+}
+.header .hero .app .cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.header .hero .app .cards .card {
+  height: 230px;
+  width: 150px;
+  margin: 10px;
+  border-radius: 8px;
+  background: #fff;
+}
+.header .hero .app .cards .card__image {
+  height: 190px;
+  width: 100%;
+}
+
+.header .hero.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .hero.page .left {
+  border: none;
+  width: 60%;
+}
+.header .available-wrappers {
+  margin-top: 40px;
+}
+.header .available-wrappers a {
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+}
+.header .available-wrappers a small {
+  font-size: 12px;
+  font-weight: 400;
+}
+.ant-card-meta-description{
+  min-height: 40px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  color: #343434;
+  font-weight: 700;
+
+}
+
+.ant-card-body{
+  padding: 16px;
+}
+
+.ant-card{
+  height: 100%;
+}
+
+.ant-card img{
+  height: 300px;
+}
